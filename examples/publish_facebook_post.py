@@ -8,10 +8,9 @@ import os
 
 from pyfacebook import GraphAPI
 
-APP_ID = os.environ.get("APP_ID")  # Your App ID
-APP_SECRET = os.environ.get("APP_SECRET")  # Your App secret
-ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN")  # Your Access Token with the target page
-
+APP_ID = '1442432229496744' # os.environ.get("APP_ID")  # Your App ID
+APP_SECRET = '4c4ba4b8e5c31214bfe0abd46d711b4c' # os.environ.get("APP_SECRET")  # Your App secret
+ACCESS_TOKEN = 'EAAUf4mym16gBOZBPLu6V7tvU9H8lpscgg4rvZBOo3ZCnZBNRLXf3aysrZCVt4a1Ca1w1TZBGvBJOri7TRdNuXLhvudEG0m2LwQKb45alu2C6izDQ7VLFvS2wq2hENP8XeGyUdZBlCKHIPiO5E0aD6wtxGKSZCtZA4GVqXhWrlSSZCaAoQIehYqlLtESQBFc3CuY8mZBHEyAydWIycQVF3iunCoxR4Rg3aUjnTAeeYZAr61LWvwZDZD'
 
 def publish_simple_posts(page_id):
     api = GraphAPI(app_id=APP_ID, app_secret=APP_SECRET, access_token=ACCESS_TOKEN)
@@ -30,4 +29,4 @@ def publish_simple_posts(page_id):
 
 
 if __name__ == "__main__":
-    publish_simple_posts(page_id="meta")
+    publish_simple_posts(page_id="653224174543911") # "1389220978975648" 109845401782936

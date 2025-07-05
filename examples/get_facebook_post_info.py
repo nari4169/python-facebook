@@ -5,12 +5,11 @@
 """
 
 import os
-
 from pyfacebook import FacebookApi
 
-APP_ID = os.environ.get("APP_ID")  # Your App ID
-APP_SECRET = os.environ.get("APP_SECRET")  # Your App secret
-ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN")  # Your Access Token
+APP_ID = '1442432229496744' # os.environ.get("APP_ID")  # Your App ID
+APP_SECRET = '4c4ba4b8e5c31214bfe0abd46d711b4c' # os.environ.get("APP_SECRET")  # Your App secret
+ACCESS_TOKEN = 'EAAUf4mym16gBOzNv4tmS1BzZBGHK44mibP7RyQr3vhOKnJf1d2Ay5BcFJ4elzfmittldlwVn5iZAiN4H6WH7MZA6NmOSNtP0fZC38BgWm9Xdb4vfMNZCgZAgTfFuJc0vmnhYL0nMzEpQLsmXkQMNhVIxjKop17bBjnOTAgZBRwXSdJ46LLZAN6fE1ArnZCkjupZAddQHk4rgSJS5CzBZBbS' # os.environ.get("ACCESS_TOKEN")  # Your Access Token
 
 
 def handler(post_id):
